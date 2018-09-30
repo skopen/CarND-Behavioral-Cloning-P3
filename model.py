@@ -7,7 +7,7 @@ isHeader = True
 
 data_path = './data/'
 
-# read csv metadata
+# read csv metadata first
 with open (data_path + 'driving_log.csv') as csvfile:
     reader = csv.reader(csvfile)
     for line in reader:
